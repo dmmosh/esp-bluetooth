@@ -141,7 +141,7 @@ void loop() {
       break;
       default:
         buffer[chr] = curr;
-        chr++9;
+        chr++;
     }
     if(chr>99) chr = 0;
   }
